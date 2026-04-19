@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_claims
+    description: "Cleaned claims data"
+    columns:
+      - name: claim_id
+        description: "Unique claim ID"
+        tests:
+          - not_null
+          - unique
+      - name: status
+        description: "Claim status"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['approved', 'rejected', 'pending']
+      - name: claim_amount
+        tests:
+          - not_null
+
+  - name: approved_claims
+    description: "Only approved claims"
+    columns:
+      - name: claim_id
+        tests:
+          - not_null
+          - unique
+
+  - name: monthly_summary
+    description: "Month wise claim totals"
+    columns:
+      - name: month
+        tests:
+          - not_null
