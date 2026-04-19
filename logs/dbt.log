@@ -1,0 +1,36 @@
+[0m10:07:04.249564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104506e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b73b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b73c50>]}
+
+
+============================== 10:07:04.252469 | 580093e4-38e6-47da-ac0d-3b7cd062ccb4 ==============================
+[0m10:07:04.252469 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:07:04.252785 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'log_cache_events': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'printer_width': '80', 'warn_error': 'None', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'log_format': 'default', 'empty': 'None', 'indirect_selection': 'eager', 'introspect': 'True', 'invocation_command': 'dbt init claims_pipeline', 'use_colors': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'write_json': 'True', 'debug': 'False', 'partial_parse': 'True', 'profiles_dir': '/Users/ranjitpandey/.dbt', 'version_check': 'True', 'quiet': 'False'}
+[0m10:07:04.262196 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.13/site-packages/dbt/include/starter_project
+[0m10:07:04.265980 [info ] [MainThread]: 
+Your new dbt project "claims_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:07:04.266155 [info ] [MainThread]: Setting up your profile.
+[0m10:08:29.470607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111346e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11375bb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11375bc50>]}
+
+
+============================== 10:08:29.473757 | 6464018e-8285-41f8-bead-5feef0464f8d ==============================
+[0m10:08:29.473757 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:08:29.474133 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'cache_selected_only': 'False', 'introspect': 'True', 'profiles_dir': '/Users/ranjitpandey/.dbt', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'invocation_command': 'dbt init claims_pipeline', 'use_colors': 'True', 'write_json': 'True', 'partial_parse': 'True', 'empty': 'None', 'no_print': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'debug': 'False', 'quiet': 'False', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'version_check': 'True', 'log_cache_events': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None'}
+[0m10:08:29.483331 [info ] [MainThread]: A project called claims_pipeline already exists here.
+[0m10:08:29.485403 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.05351875, "process_in_blocks": "0", "process_kernel_time": 0.13856, "process_mem_max_rss": "116408320", "process_out_blocks": "0", "process_user_time": 0.624461}
+[0m10:08:29.485664 [debug] [MainThread]: Command `dbt init` succeeded at 10:08:29.485606 after 0.05 seconds
+[0m10:08:29.485829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1137bce90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1138603b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1135dcf30>]}
+[0m10:08:29.485995 [debug] [MainThread]: Flushing usage events
+[0m10:08:31.081927 [debug] [MainThread]: An error was encountered while trying to flush usage events
